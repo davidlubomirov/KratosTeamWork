@@ -36,7 +36,8 @@ namespace SocialNetwork.Abstract
             get { return age; }
             set
             {
-                if (value>113)
+                if (value>113) //TODO: Add to validationConstants
+
                 {
                     throw new ArgumentOutOfRangeException("Cannot be more than 113, " +
                                                           "oldest person in the world is 113");

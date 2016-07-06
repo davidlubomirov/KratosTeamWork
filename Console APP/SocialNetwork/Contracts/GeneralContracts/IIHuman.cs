@@ -5,8 +5,8 @@ namespace SocialNetwork.Contracts.GeneralContracts
 {
     public interface IHuman
     {
-        string Name { get; set; }
-        uint Age { get; set; }
+        string Name { get;  }
+        uint Age { get;  }
         Country FromCountry { get; }
     }
 }

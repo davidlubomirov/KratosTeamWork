@@ -2,8 +2,8 @@
 {
     public interface IPersonalInfo:IHuman
     {
-        string Email { get; set; } //need to add validation for email
-        string Password { get; set; } // need to add validation for password
+        string Email { get;  } //need to add validation for email
+        string Password { get; } // need to add validation for password
 
 
     }

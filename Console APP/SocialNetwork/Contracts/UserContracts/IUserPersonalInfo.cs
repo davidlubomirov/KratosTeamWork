@@ -8,10 +8,10 @@ namespace SocialNetwork.Contracts.UserContracts
     public interface IUserPersonalInfo:IPersonalInfo, IAddOrRemoveMovie
         //TODO: users only
     {
-        string Username { get; set; } //could add validation for it as well
-        IList<MovieGenre> FavouriteMovieGenres { get; set; }
-        IList<MovieType> FavouriteMovieTypes { get; set; }
-        IList<IMovie> FavouriteMovies { get; set; }
+        string Username { get;   } //could add validation for it as well
+        IList<MovieGenre> FavouriteMovieGenres { get;  }
+        IList<MovieType> FavouriteMovieTypes { get;  }
+        IList<IMovie> FavouriteMovies { get;  }
 
     }
 }

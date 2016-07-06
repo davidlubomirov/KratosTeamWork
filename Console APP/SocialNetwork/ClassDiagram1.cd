@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SocialNetwork.Abstract.Actor" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Actor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SocialNetwork.Abstract.Admin" Collapsed="true">
+    <Position X="2.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAIAAAQAABAEAAAQQAAAAEAAAAQAAAAEAAAAA=</HashCode>
+      <FileName>Abstract\Admin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SocialNetwork.Abstract.Human" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAABAEAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Human.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SocialNetwork.Abstract.User" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAECUAABAsAQAAAAEAAAAAAAADMAAAAgAAAAA=</HashCode>
+      <FileName>Abstract\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SocialNetwork.Classes.AdminRelated.BasicAdmin" Collapsed="true">
+    <Position X="1.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AdminRelated\BasicAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.AdminRelated.MasterAdmin" Collapsed="true">
+    <Position X="3.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AdminRelated\MasterAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.Director" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Classes\MovieRelated\Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.Movie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAACggAAAAAAAAAgAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MovieRelated\Movie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SocialNetwork.Classes.NotSoFamousActor" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAA=</HashCode>
+      <FileName>Classes\MovieRelated\NotSoFamousActor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.RelativelyFamousActor" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\MovieRelated\RelativelyFamousActor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.VeryFamousActor" Collapsed="true">
+    <Position X="6.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAA=</HashCode>
+      <FileName>Classes\MovieRelated\VeryFamousActor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.UserRelated.BasicUser" Collapsed="true">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\UserRelated\BasicUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.UserRelated.BlockedUser" Collapsed="true">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\UserRelated\BlockedUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.UserRelated.PremiumUser" Collapsed="true">
+    <Position X="13.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\UserRelated\PremiumUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Classes.UserRelated.RegularUser" Collapsed="true">
+    <Position X="13.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\UserRelated\RegularUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocialNetwork.Program" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SocialNetwork.Contracts.AdminContracts.IAdmin" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Contracts\AdminContracts\IAdmin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.GeneralContracts.IHuman" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\GeneralContracts\IIHuman.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.GeneralContracts.IPersonalInfo" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\GeneralContracts\IPersonalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.MovieContractrs.IActor" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\MovieContractrs\IActor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.MovieContractrs.IMovie" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAACggAAAAAAAAAgAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\MovieContractrs\IMovie.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.UserContracts.IAddOrRemoveMovie" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\UserContracts\IAddOrRemoveMovie.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.UserContracts.IRateActor" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\UserContracts\IrateActor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.UserContracts.IRateMovie" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\UserContracts\IRateMovie.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.UserContracts.IUser" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\UserContracts\IUser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SocialNetwork.Contracts.UserContracts.IUserPersonalInfo" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEAQAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\UserContracts\IUserPersonalInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SocialNetwork.Enums.Country" Collapsed="true">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAAQIAAAgAQAAAAAAIAAACAAAAAAIAAAAAAUA=</HashCode>
+      <FileName>Enums\Country.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SocialNetwork.Enums.MovieActorType" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAhAAIAAACgAA=</HashCode>
+      <FileName>Enums\MovieActorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SocialNetwork.Enums.MovieGenre" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAABAABAAAAIgBAAAAIAAAAAAAAAIACCFAAAAEQ=</HashCode>
+      <FileName>Enums\MovieGenre.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SocialNetwork.Enums.MovieType" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAgAEAAAAAAAAA=</HashCode>
+      <FileName>Enums\MovieType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

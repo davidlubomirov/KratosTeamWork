@@ -1,0 +1,6 @@
+C:\Users\Deyan\Source\Repos\KratosTeamWork2\Console APP\SocialNetwork\bin\Debug\SocialNetwork.exe.config
+C:\Users\Deyan\Source\Repos\KratosTeamWork2\Console APP\SocialNetwork\bin\Debug\SocialNetwork.exe
+C:\Users\Deyan\Source\Repos\KratosTeamWork2\Console APP\SocialNetwork\bin\Debug\SocialNetwork.pdb
+C:\Users\Deyan\Source\Repos\KratosTeamWork2\Console APP\SocialNetwork\obj\Debug\SocialNetwork.csprojResolveAssemblyReference.cache
+C:\Users\Deyan\Source\Repos\KratosTeamWork2\Console APP\SocialNetwork\obj\Debug\SocialNetwork.exe
+C:\Users\Deyan\Source\Repos\KratosTeamWork2\Console APP\SocialNetwork\obj\Debug\SocialNetwork.pdb
